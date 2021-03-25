@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chess</title>
+	<style type="text/css">
+		.board { text-align: left;
+		       border-radius: 10px; 
+            background-color: #dfce40; }
+   
+   .box { border-spacing: 0; 
+          border-collapse: collapse; }
+
+   .box th { padding: .7em;
+              }
+
+   .box td { border: 3px solid; 
+             width: 5em; 
+             height: 5em; 
+             text-align: center;
+             vertical-align: middle; }
+
+   .box .beliy { background: #FFFFFF; }
+
+   .box .fioletoviy { background: #832dca; }
+
+	</style>
+
+</head>
+
+<body>
+
+  <div class="board">
+    <table class="box">
+   <tbody>
+    <tr>
+     <th></th>
+     <th><em>A</th></em>
+     <th><em>B</th></em>
+     <th><em>C</th></em>
+     <th><em>D</th></em>
+     <th><em>E</th></em>
+     <th><em>F</th></em>
+     <th><em>G</th></em>
+     <th><em>H</th></em>
+    </tr>
+    <tr>
+     <th>1</th>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Chess_rdt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Chess_ndt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Chess_bdt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Chess_qdt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Chess_kdt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Chess_bdt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Chess_ndt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Chess_rdt60.png"></td>
+     
+    </tr>
+    <tr>
+     <th>2</th>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"></td>
+   
+    </tr>
+    <tr>
+     <th>3</th>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+      
+    </tr>
+    <tr>
+     <th>4</th>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+       
+    </tr>
+    <tr>
+     <th>5</th>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+      
+    </tr>
+    <tr>
+     <th>6</th>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     <td class="fioletoviy"></td>
+     <td class="beliy"></td>
+     
+    </tr>
+    <tr>
+     <th>7</th>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"></td>
+     
+    </tr>
+    <tr>
+     <th>8</th>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chess_rlt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Chess_nlt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Chess_blt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Chess_qlt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Chess_klt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Chess_blt60.png"></td>
+     <td class="fioletoviy"><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Chess_nlt60.png"></td>
+     <td class="beliy"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chess_rlt60.png"></td>
+     
+    </tr>
+    
+   </tbody>
+  </table>
+</div>
+</div>
+
+</body>
+
+</html>
